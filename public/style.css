@@ -1,0 +1,156 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #472dbb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .submit-btn:hover {
+    background-color: #4565a0;
+  }
+
+  p {
+    margin-top: 15px;
+  } */
+
+  /* Global reset */
+/* Global reset */
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px; /* Border radius for all elements */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/images.avif');/* Background image from the internet */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff; /* Text color */
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #0862e9, #6b0799); /* Linear gradient background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for the form container */
+    border-radius: 8px; /* Border radius for form container */
+    transition: all 0.3s; /* Smooth transition for all properties */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; /* Label text color */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.submit-btn {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #472dbb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s; /* Smooth transition for all properties */
+}
+
+.submit-btn:hover {
+    background-color: #4565a0; /* Background color change on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+    color: #fff; /* Text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+
+}
+
+/* Additional styles for links or other elements */
+a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+.form-container:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0,0,.5); /* Box shadow on hover */
+    transform: scale(1.02); /* Scaling up the element on hover */
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) .25s; /* Custom easing function and duration */
+}
+.p{
+    color: #ccc;
+}
